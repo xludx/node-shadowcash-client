@@ -1,22 +1,24 @@
 {
-  "name": "node-altcoin",
-  "version": "0.1.2",
-  "description": "AltCoin RPC Node Client",
-  "main": "./altcoin.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "node-shadowcash",
+  "version": "0.1.0",
+  "description": "Node.js ShadowCash RPC Client",
+  "main": "./shadowcash.js",
+  "dependencies": {
+    "node-altcoin": "0.1.2",
+    "winston": "^0.8.3"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nrpatten/node-altcoin.git"
+    "url": "git://github.com/xludx/node-shadowcash-client.git"
   },
-  "keywords": [
-    "altcoin"
-  ],
-  "author": "NRPatten",
+  "author": "ludx",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nrpatten/node-altcoin/issues"
-  },
-  "homepage": "https://github.com/nrpatten/node-altcoin"
+  "homepage": "https://github.com/xludx/node-shadowcash-client",
+  "keywords": [
+    "altcoin",
+    "shadow",
+    "shadowcash",
+    "sdc",
+    "node"
+  ]
 }

@@ -1,8 +1,6 @@
-# A Node.js Altcoin Client!
+# ShadowCash client for Node.js!
 
-[![NPM](https://nodei.co/npm/node-altcoin.png?downloads=true&stars=true)](https://nodei.co/npm/node-altcoin/)
-
-node-altcoin is a altcoin client for Node.js. It is a fork of the excellent Kapitalize Bitcoin Client (now removed from GitHub) intended for use with most altcoins. The purpose of this repository is:
+This client is based on node-altcoin. node-altcoin is an altcoin client for Node.js. It is a fork of the excellent Kapitalize Bitcoin Client (now removed from GitHub) intended for use with most altcoins. The purpose of this repository is:
 
 * Provide a one-stop resource for the Node.js developer to get started with altcoin integration.
 * Promote Node.js development of altcoin web apps.
@@ -10,7 +8,7 @@ node-altcoin is a altcoin client for Node.js. It is a fork of the excellent Kapi
 
 ## Dependencies
 
-You'll need a running instance of a [litecoind](https://github.com/litecoin-project/litecoin) to connect with. 
+You'll need a running instance of a [litecoind](https://github.com/litecoin-project/litecoin) to connect with.
 
 Then, install the node-altcoin NPM package.
 
@@ -284,7 +282,7 @@ All [Litecoin API](https://litecoin.info/Litecoin_API) commands are supported, i
 </li><li> "hash1": formatted hash buffer for second hash
 </li><li> "target": little endian hash target
 </li></ul>
-<p>If [data] is specified, tries to solve the block and returns true if it was successful. 
+<p>If [data] is specified, tries to solve the block and returns true if it was successful.
 </p>
 </td>
 <td> N
@@ -517,7 +515,7 @@ By default `altcoind` exposes its JSON-RPC interface via HTTP; that is, all RPC 
     rpcsslprivatekeyfile=/etc/ssl/private/altcoind.pem
 
 In order to securely access an SSL encrypted JSON-RPC interface you need a copy of the self-signed certificate from the server: in this case `altcoind.crt`. Pass your self-signed certificate in the `ca` option and set `https: true` and node-altcoin is secured!
-    
+
 ```js
 var fs = require('fs')
 
